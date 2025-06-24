@@ -1,3 +1,11 @@
+
+#******************************************************************#
+# Here we are storing different types of data into variables       #
+# each variable represents a little about myself                   #
+# we later use all the information in the variables within strings #
+#******************************************************************#
+
+
 my_name = "ONeil Ratty"
 my_age = 20
 my_height = 70
