@@ -1,0 +1,17 @@
+
+#**************#
+# Excercise 22 #
+#**************#
+
+
+We have covered operators, modules, formatted variables, variables itself
+working with command line arguments, functions, math with functions
+manipulating files, playing around with file methods such as read(), write()
+so on
+
+#**************#
+# Excercise 23 #
+#**************#
+
+here we just read over some code looking at what it does, trying to figure out
+lines that looks very foreign
