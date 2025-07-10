@@ -1,0 +1,152 @@
+############
+# KEYWORDS #
+############
+
+
+and = checking whether both of the two properties are positive
+
+del = deletes an objects
+
+from = to import specific parts of a module
+
+not = is a not operator that checks whether a statment is not True
+
+while = while a specific condition is true, the loop withh continue until a condition changes
+
+as = sets alias to a variable, function
+
+elif = if the first statement is false then it will go to the next elif
+
+global = declares a variable that can be used through out the whole code
+
+or = checks whether one of the many statements are true
+
+with = used to simplify exception handling
+
+assert = used with debugging
+
+else = Used in conditional statements
+
+if = checks whether a statement is true or false
+
+pass = A null statement, a statement that will do nothing
+
+yield = to return a list of values from a generator
+
+break = breaks out the loop when a specific condition is met
+
+except = used with exceptions, waht to do when an exception is met
+
+import = to import a module
+
+print = prints out a data onto the command line
+
+class = to define a class
+
+exec = it enables the execution of code that is generated at run-time and not hardcoded
+
+in = looks within a module for a specific condition
+
+raise = to raise an exception 
+
+continue = continue through the loop and skips over the last iteration of the loop
+
+finally = a block of code that will execute whether a condition is met or not
+
+is = to test whether two variables are equal
+
+return = at the end of a function this is used to stop the function and return a result
+
+def = used to defined a function when creating it
+
+for = for loop, for as long as a condition is true, it will loop
+
+lambda = to create an anonymous function
+
+try = to make a try except statement
+
+
+##############
+# DATA TYPES #
+##############
+
+True = checks whether a condtion is true 
+False = checks whether a cindition is False
+None = None
+Strings = "Hello"
+numbers = 123456
+floats = 134,6523
+lists = [1,2,3,4,5,6,7]
+
+###########################
+# STRING ESCAPE SEQUENCES #
+###########################
+
+\\ = \
+\' = '
+\" = "
+\a = Ascii bell character
+\b = Backspace
+\f = Form Feed
+\n = new Line
+\r = Carriage Return
+\t = Tab
+\v = vertical tab
+
+##################
+# STRING FORMATS #
+##################
+
+
+%d = digit
+%i = signed interger
+%o = Octal representation
+%u = Unsigned int
+%x = Hexadecimal representation
+%X = Hexadecimal representation
+%e = for scientific notation of floats
+%E = for scientific notation of floats
+%f = floating point numbers
+%F = for float type
+%g = for the float type with the current precision
+%G = for float type with the current precision
+%c = for character type
+%r = R strings
+%s = strings
+%% = prints % character
+
+
+#############
+# OPERATORS #
+#############
+
++ = the addition operator
+- = subtraction operator
+* = the multiplication
+** = the exponent of...
+/ = Divide operator
+// = rounds of a float to the nearest whole number
+% = modulous, devides two numbers together and returns the remainder
+< = less than operator
+> = greater than operator
+<= = less than or equal to
+>= = greater than or equal to
+== = checks whether the variables are equal
+!= = checks whether the variables are not equa
+<> = not equal to
+( ) = used within functions
+[ ] =  used as a substring with arrays or lists
+{ } = format string operator in python
+@ = Matrix multiplication 
+, = serves as a seperator between items in a sequence or list
+: = used for slicing sequences and for type hints
+. = atribute access and method invocation
+= = assignment operator
+; = serves as a statement seperator
++= = asigns and adds 
+-= subtraction and asigns
+*= multiplication and asigns
+/= Divide and asigns
+//= rounds number to the nearest whole number and asigns
+%= modulous and asigns
+**= to the exponent of an asigns
