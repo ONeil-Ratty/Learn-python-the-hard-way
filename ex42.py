@@ -20,7 +20,7 @@ class Person(object):
     
     def __init__(self,name):
 
-        ## ??
+        ## person has-a name
         self.name = name
 
         ## Person has-a pet of some kind
