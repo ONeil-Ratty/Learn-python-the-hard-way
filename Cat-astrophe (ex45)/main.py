@@ -1,10 +1,15 @@
 from levels import start
 from levels import EntranceToForrest
+from entities import Player
 
 
-currentScene = start()
-name = currentScene.log()
-currentScene.nameOfCharacter(name)
+currentLevel = start()
+
+myPlayer = currentLevel.log()
+
+print(myPlayer.name)
+
+
 
 
 

@@ -14,6 +14,3 @@ class cats(object):
         self.defen = defen
 
 
-
-
-

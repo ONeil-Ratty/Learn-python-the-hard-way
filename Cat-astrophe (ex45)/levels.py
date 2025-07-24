@@ -11,10 +11,25 @@ class start(object):
     def log(self):
         print("what is the name of your character?")
         name = input()
-        return name
+        myPlayer = Player(name,{},[])
+        print(f"Welcome to your demise, {name}. Here is a list of starting cats to pick from:\nDobby\nDexter\nTamia\n")
+        
+        firstCat = input()
+        if firstCat == "Dobby":
+            print("You picked Dobby")
+            myPlayer.cats = ["Dobby"]
+            return myPlayer
+        
+        elif firstCat == "Dexter":
+            print("You picked Dexter")
+            myPlayer.cats = ["Dexter"]
+            return myPlayer
+        
+        else:
+            print("You picked Tamia")
+            myPlayer.cats = ["Tamia"]
+            return myPlayer
 
-    def nameOfCharacter(self, name):
-        print(f"your name is {name}")
 
 
 
