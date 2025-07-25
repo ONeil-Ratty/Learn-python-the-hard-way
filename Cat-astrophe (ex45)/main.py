@@ -7,8 +7,6 @@ currentLevel = start()
 
 myPlayer = currentLevel.log()
 
-print(myPlayer.name)
-
 
 
 

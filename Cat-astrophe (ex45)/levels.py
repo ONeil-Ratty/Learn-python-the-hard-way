@@ -12,7 +12,7 @@ class start(object):
         print("what is the name of your character?")
         name = input()
         myPlayer = Player(name,{},[])
-        print(f"Welcome to your demise, {name}. Here is a list of starting cats to pick from:\nDobby\nDexter\nTamia\n")
+        print(f"Welcome to your demise, {name}. Here is a list of starting cats to pick from:\nDobby\nDexter\nLily\n")
         
         firstCat = input()
         if firstCat == "Dobby":
@@ -25,10 +25,13 @@ class start(object):
             myPlayer.cats = ["Dexter"]
             return myPlayer
         
-        else:
-            print("You picked Tamia")
-            myPlayer.cats = ["Tamia"]
+        elif firstCat == "Lily":
+            print("You picked Lily")
+            myPlayer.cats = ["Lily"]
             return myPlayer
+        else:
+            print('You didnt pick a valid cat name')
+            return self.log()
 
 
 
